@@ -27,7 +27,7 @@ def chat(user_message, history):
 
 gr.ChatInterface(
     fn=chat,
-    title="ReadMe",
+    title="Off-Chatty",
     description="Ask anything you want! Powered by Phi-2 running fully offline.",
     theme="soft",
     chatbot=gr.Chatbot(height=500),
